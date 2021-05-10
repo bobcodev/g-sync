@@ -17,6 +17,7 @@ desktop.ini
 #-------------------------
 /nbproject
 /.idea
+.vscode
 
 ## Sublime Text cache files
 #-------------------------

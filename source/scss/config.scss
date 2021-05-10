@@ -22,9 +22,10 @@
 
 $white:                                    #ffffff;
 $black:                                    #000000;
+$green:                                    #77B900;
 
-$body-bg:                                  $white;
-$body-color:                               $black;
+$body-bg:                                  $black;
+$body-color:                               $white;
 $link-color:                               $black;
 $link-decoration:                          underline;
 $link-hover-color:                         $black;
@@ -39,17 +40,17 @@ $grid-breakpoints: (
 	xl: 1200px
 ) !default;
 
-$grid-columns:                             12;
+$grid-columns:                             4;
 $grid-gutter-width:                        30px;
 $grid-row-columns:                         6;
 
 $container-max-widths: (
-	xs: 1140px,
+	xs: 1110px,
 ) !default;
 
 //Typography
-$font-family-base:                         'Montserrat',Arial, sans-serif;
-$font-family-secondary:                    $font-family-base;
+$font-family-base:                         'Roboto', Arial, sans-serif;
+$font-family-secondary:                    'Play', Arial, sans-serif;
 $headings-font-family:                     $font-family-secondary;
 $btn-font-family:                          $font-family-secondary;
 $headings-font-weight:                     700;

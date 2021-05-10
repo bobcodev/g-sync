@@ -1,0 +1,45 @@
+// @media screen and ( min-width: 1440px )
+
+@media (min-width: 1440px) {
+
+    .page-class {
+        height: 100vh;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.3) 5%), url(../img/bg.jpg)  no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .header__menu {
+        height: 90px;
+    }
+    
+    .header__logo {
+        width: 81px;
+        height: 60px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__header {
+        width: 68%;
+    }
+
+    .hero-features {
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    .hero-features__item-heading {
+        text-align: left;
+    }
+
+    .hero__btn {
+        width: auto;
+    }
+    
+}

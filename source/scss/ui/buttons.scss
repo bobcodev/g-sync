@@ -1,13 +1,28 @@
 .button {
 	@include font-size(18px);
 	font-family: $btn-font-family;
+	border: none;
+    background-color: transparent;
 }
 
 .btn {
 	@extend .button;
 
-	&--secondary {
+	border: 2px solid $green;
+	background-color: $green;
+	color: $white;
+	text-transform: uppercase;
+	line-height: 21px;
+	letter-spacing: 0.25px;
+	padding: 17.5px 60px 17.5px 60px;
 
+	&:hover {
+		transition: 0.15s;
+		background-color: transparent;
+		box-shadow: 0px 0px 10px $green;
+	}
+	&--secondary {
+		
 	}
 }
 
